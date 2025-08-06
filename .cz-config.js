@@ -45,7 +45,7 @@ module.exports = {
         },
         {
             value: ':rocket: chore',
-            name: '🚀 chore:    构建/工程依赖/工具'
+            name: '🚀 chore:    构建/工程依赖/工具/其他杂项'
         },
         {
             value: ':construction_worker: ci',
