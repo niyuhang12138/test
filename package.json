@@ -6,7 +6,7 @@
     "scripts": {
         "prepare": "husky",
         "commit": "git add . && git-cz",
-        "release": "simple-release"
+        "release": "semantic-release"
     },
     "keywords": [],
     "author": "",
@@ -17,6 +17,8 @@
         "@commitlint/config-conventional": "^19.8.1",
         "@commitlint/parse": "^19.8.1",
         "@commitlint/rules": "^19.8.1",
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
         "commitizen": "^4.3.1",
         "commitlint": "^19.8.1",
         "commitlint-config-cz": "^0.13.3",
@@ -25,6 +27,6 @@
         "cz-conventional-changelog": "^3.3.0",
         "cz-customizable": "^7.4.0",
         "husky": "^9.1.7",
-        "simple-release": "^1.2.0"
+        "semantic-release": "^24.2.7"
     }
 }
