@@ -24,7 +24,7 @@ jobs:
             - name: Setup pnpm
               uses: pnpm/action-setup@v4
               with:
-                  version: 10.13.1 # 与你的 packageManager 版本保持一致
+                  version: 10.14.0 # 与你的 packageManager 版本保持一致
 
             - name: Set up Node.js
               uses: actions/setup-node@v4
