@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/niyuhang12138/test/compare/v1.0.0...v2.0.0) (2025-08-06)
+
+
+* :sparkles: feat(auth): 增加了一些内容 ([62c5442](https://github.com/niyuhang12138/test/commit/62c54427c465e772f4ba07a752cbddf1113e7869)), closes [#456](https://github.com/niyuhang12138/test/issues/456)
+
+
+### BREAKING CHANGES
+
+* 一些内容
+
 # 1.0.0 (2025-08-06)
 
 
