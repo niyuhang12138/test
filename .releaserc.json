@@ -41,22 +41,39 @@
                 "preset": "angular",
                 "presetConfig": {
                     "types": [
-                        { "type": "feat", "section": "✨ Features" },
-                        { "type": "fix", "section": "🐛 Bug Fixes" },
+                        { "type": ":sparkles: feat", "section": "✨ Features" },
+                        { "type": ":bug: fix", "section": "🐛 Bug Fixes" },
                         {
-                            "type": "perf",
-                            "section": "⚡️ Performance Improvements"
+                            "type": ":tada: init",
+                            "section": "🎉 Initial Commit"
                         },
                         {
-                            "type": "refactor",
+                            "type": ":pencil2: docs",
+                            "section": "✏️ Documentation"
+                        },
+                        {
+                            "type": ":lipstick: style",
+                            "hidden": true
+                        },
+                        {
+                            "type": ":recycle: refactor",
                             "section": "♻️ Code Refactoring"
                         },
-                        { "type": "docs", "section": "✏️ Documentation" },
-                        { "type": "style", "hidden": true },
-                        { "type": "test", "hidden": true },
-                        { "type": "chore", "hidden": true },
-                        { "type": "build", "section": "📦️ Build System" },
-                        { "type": "ci", "section": "👷 CI/CD" }
+                        {
+                            "type": ":zap: perf",
+                            "section": "⚡️ Performance Improvements"
+                        },
+                        { "type": ":white_check_mark: test", "hidden": true },
+                        { "type": ":rewind: revert", "hidden": true },
+                        {
+                            "type": ":package: build",
+                            "section": "📦️ Build System"
+                        },
+                        { "type": ":rocket: chore", "hidden": true },
+                        {
+                            "type": ":construction_worker: ci",
+                            "section": "👷 CI/CD"
+                        }
                     ]
                 }
             }
