@@ -1,3 +1,5 @@
+## [2.1.2](https://github.com/niyuhang12138/test/compare/v2.1.1...v2.1.2) (2025-08-07)
+
 ## [2.1.1](https://github.com/niyuhang12138/test/compare/v2.1.0...v2.1.1) (2025-08-07)
 
 # [2.1.0](https://github.com/niyuhang12138/test/compare/v2.0.0...v2.1.0) (2025-08-07)
