@@ -1,3 +1,15 @@
+# [2.1.0](https://github.com/niyuhang12138/test/compare/v2.0.0...v2.1.0) (2025-08-07)
+
+
+### Bug Fixes
+
+* **auth:** subject ([9d77939](https://github.com/niyuhang12138/test/commit/9d7793956d2d2273d3027b0f913ddab2957a977f))
+
+
+### Features
+
+* **auth:** shory ([c4cd54a](https://github.com/niyuhang12138/test/commit/c4cd54a5c7f2e876c1c35490000d043d4ee18273)), closes [#123](https://github.com/niyuhang12138/test/issues/123)
+
 # [2.0.0](https://github.com/niyuhang12138/test/compare/v1.0.0...v2.0.0) (2025-08-06)
 
 
