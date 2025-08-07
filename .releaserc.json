@@ -46,25 +46,66 @@
                 "preset": "angular",
                 "presetConfig": {
                     "types": [
-                        { "type": "feat", "section": "✨ Features" },
-                        { "type": "fix", "section": "🐛 Bug Fixes" },
+                        {
+                            "type": "feat",
+                            "section": "✨ Features",
+                            "hidden": false
+                        },
+                        {
+                            "type": "fix",
+                            "section": "🐛 Bug Fixes",
+                            "hidden": false
+                        },
                         {
                             "type": "perf",
-                            "section": "⚡️ Performance Improvements"
+                            "section": "⚡️ Performance Improvements",
+                            "hidden": false
                         },
                         {
                             "type": "refactor",
-                            "section": "♻️ Code Refactoring"
+                            "section": "♻️ Code Refactoring",
+                            "hidden": false
                         },
-                        { "type": "docs", "section": "✏️ Documentation" },
-                        { "type": "ci", "section": "👷 CI/CD" },
-                        { "type": "style", "section": "💄 Code Style" },
-                        { "type": "test", "section": "✅ Tests" },
-                        { "type": "revert", "section": "⏪ Reverts" },
-                        { "type": "build", "section": "📦️ Build System" },
-                        { "type": "chore", "section": "🚀 Chores" },
-                        { "type": "chore", "hidden": true },
-                        { "type": "init", "section": "🎉 Initialization" }
+                        {
+                            "type": "docs",
+                            "section": "✏️ Documentation",
+                            "hidden": false
+                        },
+                        {
+                            "type": "ci",
+                            "section": "👷 CI/CD",
+                            "hidden": false
+                        },
+                        {
+                            "type": "style",
+                            "section": "💄 Code Style",
+                            "hidden": false
+                        },
+                        {
+                            "type": "test",
+                            "section": "✅ Tests",
+                            "hidden": false
+                        },
+                        {
+                            "type": "revert",
+                            "section": "⏪ Reverts",
+                            "hidden": false
+                        },
+                        {
+                            "type": "build",
+                            "section": "📦️ Build System",
+                            "hidden": false
+                        },
+                        {
+                            "type": "chore",
+                            "section": "🚀 Chores",
+                            "hidden": false
+                        },
+                        {
+                            "type": "init",
+                            "section": "🎉 Initialization",
+                            "hidden": false
+                        }
                     ]
                 }
             }
