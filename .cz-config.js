@@ -59,7 +59,8 @@ module.exports = {
         { name: 'user' },
         { name: 'order' },
         { name: 'pay' },
-        { name: 'other' }
+        { name: 'other' },
+        { name: 'release', description: '发布相关变更', hidden: true }
     ],
 
     allowCustomScopes: true,
