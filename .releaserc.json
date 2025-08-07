@@ -43,70 +43,48 @@
                         "subject"
                     ]
                 },
-                "preset": "angular",
-                "presetConfig": {
-                    "types": [
-                        {
-                            "type": "feat",
-                            "section": "✨ Features",
-                            "hidden": false
+                "writerOpts": {
+                    "groupBy": "type",
+                    "commitGroupsSort": "title",
+                    "commitsSort": ["scope", "subject"],
+                    "transform": {
+                        "feat": {
+                            "title": "✨ Features"
                         },
-                        {
-                            "type": "fix",
-                            "section": "🐛 Bug Fixes",
-                            "hidden": false
+                        "fix": {
+                            "title": "🐛 Bug Fixes"
                         },
-                        {
-                            "type": "perf",
-                            "section": "⚡️ Performance Improvements",
-                            "hidden": false
+                        "perf": {
+                            "title": "⚡️ Performance Improvements"
                         },
-                        {
-                            "type": "refactor",
-                            "section": "♻️ Code Refactoring",
-                            "hidden": false
+                        "refactor": {
+                            "title": "♻️ Code Refactoring"
                         },
-                        {
-                            "type": "docs",
-                            "section": "✏️ Documentation",
-                            "hidden": false
+                        "docs": {
+                            "title": "📝 Documentation"
                         },
-                        {
-                            "type": "ci",
-                            "section": "👷 CI/CD",
-                            "hidden": false
+                        "style": {
+                            "title": "💄 Code Style"
                         },
-                        {
-                            "type": "style",
-                            "section": "💄 Code Style",
-                            "hidden": false
+                        "test": {
+                            "title": "✅ Tests"
                         },
-                        {
-                            "type": "test",
-                            "section": "✅ Tests",
-                            "hidden": false
+                        "build": {
+                            "title": "📦️ Build System"
                         },
-                        {
-                            "type": "revert",
-                            "section": "⏪ Reverts",
-                            "hidden": false
+                        "ci": {
+                            "title": "👷 CI/CD"
                         },
-                        {
-                            "type": "build",
-                            "section": "📦️ Build System",
-                            "hidden": false
+                        "chore": {
+                            "title": "🚀 Chores"
                         },
-                        {
-                            "type": "chore",
-                            "section": "🚀 Chores",
-                            "hidden": false
+                        "revert": {
+                            "title": "⏪ Reverts"
                         },
-                        {
-                            "type": "init",
-                            "section": "🎉 Initialization",
-                            "hidden": false
+                        "init": {
+                            "title": "🎉 Initialization"
                         }
-                    ]
+                    }
                 }
             }
         ],
