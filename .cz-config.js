@@ -12,24 +12,24 @@ module.exports = {
             name: '🐛 fix:      修复 bug'
         },
         {
-            value: ':tada: init',
-            name: '🎉 init:     初始化'
-        },
-        {
-            value: ':pencil2: docs',
-            name: '✏️  docs:     文档变更'
-        },
-        {
-            value: ':lipstick: style',
-            name: '💄 style:    代码样式美化'
+            value: ':zap: perf',
+            name: '⚡️ perf:     性能优化'
         },
         {
             value: ':recycle: refactor',
             name: '♻️  refactor: 重构'
         },
         {
-            value: ':zap: perf',
-            name: '⚡️ perf:     性能优化'
+            value: ':pencil2: docs',
+            name: '✏️  docs:     文档变更'
+        },
+        {
+            value: ':construction_worker: ci',
+            name: '👷 ci:       CI 相关变更'
+        },
+        {
+            value: ':lipstick: style',
+            name: '💄 style:    代码样式美化'
         },
         {
             value: ':white_check_mark: test',
@@ -48,8 +48,8 @@ module.exports = {
             name: '🚀 chore:    构建/工程依赖/工具/其他杂项'
         },
         {
-            value: ':construction_worker: ci',
-            name: '👷 ci:       CI 相关变更'
+            value: ':tada: init',
+            name: '🎉 init:     初始化'
         }
     ],
 

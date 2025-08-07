@@ -22,6 +22,11 @@
                     { "type": "refactor", "release": "patch" },
                     { "type": "docs", "release": "patch" },
                     { "type": "ci", "release": "patch" },
+                    { "type": "style", "release": "patch" },
+                    { "type": "test", "release": "patch" },
+                    { "type": "revert", "release": "patch" },
+                    { "type": "build", "release": "patch" },
+                    { "type": "chore", "release": "patch" },
                     { "breaking": true, "release": "major" }
                 ]
             }
@@ -41,39 +46,25 @@
                 "preset": "angular",
                 "presetConfig": {
                     "types": [
-                        { "type": ":sparkles: feat", "section": "✨ Features" },
-                        { "type": ":bug: fix", "section": "🐛 Bug Fixes" },
+                        { "type": "feat", "section": "✨ Features" },
+                        { "type": "fix", "section": "🐛 Bug Fixes" },
                         {
-                            "type": ":tada: init",
-                            "section": "🎉 Initial Commit"
-                        },
-                        {
-                            "type": ":pencil2: docs",
-                            "section": "✏️ Documentation"
-                        },
-                        {
-                            "type": ":lipstick: style",
-                            "hidden": true
-                        },
-                        {
-                            "type": ":recycle: refactor",
-                            "section": "♻️ Code Refactoring"
-                        },
-                        {
-                            "type": ":zap: perf",
+                            "type": "perf",
                             "section": "⚡️ Performance Improvements"
                         },
-                        { "type": ":white_check_mark: test", "hidden": true },
-                        { "type": ":rewind: revert", "hidden": true },
                         {
-                            "type": ":package: build",
-                            "section": "📦️ Build System"
+                            "type": "refactor",
+                            "section": "♻️ Code Refactoring"
                         },
-                        { "type": ":rocket: chore", "hidden": true },
-                        {
-                            "type": ":construction_worker: ci",
-                            "section": "👷 CI/CD"
-                        }
+                        { "type": "docs", "section": "✏️ Documentation" },
+                        { "type": "ci", "section": "👷 CI/CD" },
+                        { "type": "style", "section": "💄 Code Style" },
+                        { "type": "test", "section": "✅ Tests" },
+                        { "type": "revert", "section": "⏪ Reverts" },
+                        { "type": "build", "section": "📦️ Build System" },
+                        { "type": "chore", "section": "🚀 Chores" },
+                        { "type": "chore", "hidden": true },
+                        { "type": "init", "section": "🎉 Initialization" }
                     ]
                 }
             }
