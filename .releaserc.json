@@ -6,7 +6,7 @@
             {
                 "preset": "angular",
                 "parserOpts": {
-                    "headerPattern": "^(:[\\w+-]+:)\\s*(\\w+)(?:\\(([^)]*)\\))?:\\s*(.*)$",
+                    "headerPattern": "^(:[\\w_+-]+:)\\s*(\\w+)(?:\\(([^)]*)\\))?:\\s*(.*)$",
                     "headerCorrespondence": [
                         "emoji",
                         "type",
@@ -30,7 +30,7 @@
             "@semantic-release/release-notes-generator",
             {
                 "parserOpts": {
-                    "headerPattern": "^(:[\\w+-]+:)\\s*(\\w+)(?:\\(([^)]*)\\))?:\\s*(.*)$",
+                    "headerPattern": "^(:[\\w_+-]+:)\\s*(\\w+)(?:\\(([^)]*)\\))?:\\s*(.*)$",
                     "headerCorrespondence": [
                         "emoji",
                         "type",
