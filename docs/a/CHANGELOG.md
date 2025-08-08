@@ -1,3 +1,15 @@
+# [test1-v2.0.0](https://github.com/niyuhang12138/test/compare/test1-v1.0.0...test1-v2.0.0) (2025-08-08)
+
+
+### feat
+
+* **docs/a:** docs/a subject ([](https://github.com/niyuhang12138/test/commit/397e904798b640be3754e773708e2b467da95019)), closes [#4533](https://github.com/niyuhang12138/test/issues/4533)
+
+
+### BREAKING CHANGE
+
+* **docs/a:** yes
+
 # test1-v1.0.0 (2025-08-08)
 
 
