@@ -1,3 +1,18 @@
+# [5.0.0](https://github.com/niyuhang12138/test/compare/v4.0.0...v5.0.0) (2025-08-08)
+
+
+* Merge branch 'master' of https://github.com/niyuhang12138/test ([](https://github.com/niyuhang12138/test/commit/5f42970a14b809657de958aae95d5ef102839f5d))
+
+
+### feat
+
+* **packages/a:** subject ([](https://github.com/niyuhang12138/test/commit/3ba2d2aef01feedff0c15ff5b3a08b6695617d28)), closes [#4332](https://github.com/niyuhang12138/test/issues/4332)
+
+
+### BREAKING CHANGE
+
+* **packages/a:** yes
+
 # [4.0.0](https://github.com/niyuhang12138/test/compare/v3.0.0...v4.0.0) (2025-08-08)
 
 
