@@ -3,11 +3,8 @@
 module.exports = (pkgRoot) => {
     return {
         branches: ['master'],
+        extends: ['semantic-release-monorepo'],
         plugins: [
-            [
-                '@semantic-release/monorepo',
-                { pkgRoot } // 动态指定当前包的根目录
-            ],
             [
                 '@semantic-release/commit-analyzer',
                 {
@@ -107,7 +104,10 @@ module.exports = (pkgRoot) => {
                 '@semantic-release/git',
                 {
                     assets: ['CHANGELOG.md', 'package.json'],
-                    message: `:rocket: chore(${pkgRoot}): release：${nextRelease.version}\n\n${nextRelease.notes}`
+                    message:
+                        ':rocket: chore(' +
+                        pkgRoot +
+                        '): release：${nextRelease.version}\n\n${nextRelease.notes}'
                 }
             ]
         ]
