@@ -1,3 +1,11 @@
+## [2.1.3](https://github.com/niyuhang12138/test/compare/v2.1.2...v2.1.3) (2025-08-07)
+
+
+### ci
+
+* **auth:** subject ([](https://github.com/niyuhang12138/test/commit/b4efde488c4ba25842cd9d56d633483f7c9db53f)), closes [#323](https://github.com/niyuhang12138/test/issues/323)
+* **auth:** subject ([](https://github.com/niyuhang12138/test/commit/9b8fce7fd5d72c6719439ce33de0c7ec8573dd50)), closes [#123](https://github.com/niyuhang12138/test/issues/123)
+
 ## [2.1.2](https://github.com/niyuhang12138/test/compare/v2.1.1...v2.1.2) (2025-08-07)
 
 ## [2.1.1](https://github.com/niyuhang12138/test/compare/v2.1.0...v2.1.1) (2025-08-07)
