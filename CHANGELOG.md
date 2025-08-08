@@ -1,3 +1,23 @@
+# [4.0.0](https://github.com/niyuhang12138/test/compare/v3.0.0...v4.0.0) (2025-08-08)
+
+
+* Merge branch 'master' of https://github.com/niyuhang12138/test ([](https://github.com/niyuhang12138/test/commit/41526dd3b61136e075e870b284b0922d134e08b7))
+
+
+### chore
+
+* **docs/a:** release：2.0.0 ([](https://github.com/niyuhang12138/test/commit/34605ad3db9e6bf6aa937dd4640989b7f281455a))
+
+
+### feat
+
+* **docs/a:** docs/a subject ([](https://github.com/niyuhang12138/test/commit/397e904798b640be3754e773708e2b467da95019)), closes [#4533](https://github.com/niyuhang12138/test/issues/4533)
+
+
+### BREAKING CHANGE
+
+* **docs/a:** yes
+
 # [3.0.0](https://github.com/niyuhang12138/test/compare/v2.1.3...v3.0.0) (2025-08-08)
 
 
