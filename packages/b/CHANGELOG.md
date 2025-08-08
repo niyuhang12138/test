@@ -1,3 +1,15 @@
+# [test3-v3.0.0](https://github.com/niyuhang12138/test/compare/test3-v2.0.0...test3-v3.0.0) (2025-08-08)
+
+
+### feat
+
+* **packages/c:** subject ([](https://github.com/niyuhang12138/test/commit/2fbcf531823da1f811bf55b6a959bf1c80f16bda))
+
+
+### BREAKING CHANGE
+
+* **packages/c:** tes
+
 # [test3-v2.0.0](https://github.com/niyuhang12138/test/compare/test3-v1.0.0...test3-v2.0.0) (2025-08-08)
 
 
