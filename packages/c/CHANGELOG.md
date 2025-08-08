@@ -1,3 +1,15 @@
+# [test4-v2.0.0](https://github.com/niyuhang12138/test/compare/test4-v1.0.0...test4-v2.0.0) (2025-08-08)
+
+
+### feat
+
+* **packages/c:** subject ([](https://github.com/niyuhang12138/test/commit/004b92659de7137bceefdbe58fb1c0e88b7365ea))
+
+
+### BREAKING CHANGE
+
+* **packages/c:** yes
+
 # test4-v1.0.0 (2025-08-08)
 
 
