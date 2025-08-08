@@ -59,10 +59,7 @@ module.exports = {
     ],
 
     // 确保scopes是正确的对象数组
-    scopes: [
-        ...scopes,
-        { name: 'release', description: '发布相关变更', hidden: true }
-    ],
+    scopes: [...scopes, { name: 'root', description: '根目录变更' }],
 
     // allowCustomScopes: true, // 自定义
     // allowEmptyScopes: true
