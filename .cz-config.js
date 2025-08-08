@@ -1,5 +1,10 @@
-// 注意：如果使用ES模块（package.json有"type": "module"）
-// 必须用export default；否则用module.exports
+const matchedPackages = require('./init/packages')
+
+const scopes = matchedPackages.map((pkg) => ({
+    name: pkg,
+    description: `影响 ${pkg} 的变更`
+}))
+
 module.exports = {
     // 核心：确保types是包含value和name的数组（解决choices参数错误）
     types: [
@@ -55,15 +60,12 @@ module.exports = {
 
     // 确保scopes是正确的对象数组
     scopes: [
-        { name: 'auth' },
-        { name: 'user' },
-        { name: 'order' },
-        { name: 'pay' },
-        { name: 'other' },
+        ...scopes,
         { name: 'release', description: '发布相关变更', hidden: true }
     ],
 
-    allowCustomScopes: true,
+    // allowCustomScopes: true, // 自定义
+    // allowEmptyScopes: true
     allowBreakingChanges: [':sparkles: feat', ':bug: fix'],
 
     // 消息配置
