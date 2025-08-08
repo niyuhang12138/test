@@ -9,9 +9,6 @@ matchedPackages.forEach((pkg) => {
     })
 })
 
-console.log('*********》 Releasing package：root《*********')
-execSync('semantic-release', { stdio: 'inherit', cwd: process.cwd() })
-
 // 获取最近一次 commit 的 scope
 function getLastCommitScope() {
     try {
