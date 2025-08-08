@@ -35,13 +35,7 @@ jobs:
             - name: Install dependencies
               run: pnpm install --frozen-lockfile
 
-            - name: Run tests (optional)
-              run: |
-                  if [ -f "pnpm-lock.yaml" ]; then
-                    pnpm test || echo "No tests found"
-                  fi
-
-            - name: Run release
-              run: pnpm release
+            - name: Run release all
+              run: pnpm release:all
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

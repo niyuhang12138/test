@@ -6,7 +6,12 @@
     "scripts": {
         "prepare": "husky",
         "commit": "git add . && git-cz",
-        "release:docs-a": "cd docs/a && pnpm exec semantic-release"
+        "release:root": "semantic-release",
+        "release:docs-a": "cd docs/a && semantic-release",
+        "release:packages-a": "cd packages/a && semantic-release",
+        "release:packages-b": "cd packages/b && semantic-release",
+        "release:packages-c": "cd packages/c && semantic-release",
+        "release:all": "node scripts/release-all.js"
     },
     "keywords": [],
     "author": "",
